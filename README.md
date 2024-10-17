@@ -2,15 +2,18 @@
 
 This repository contains a comprehensive analysis of hotel booking data, with a focus on understanding the factors contributing to booking cancellations. The dataset includes information from two hotels: a city hotel and a resort hotel. The goal of this analysis is to provide insights that can help reduce cancellation rates and optimize hotel revenue.
 
+
 ## About Dataset
 
 Dataset was taken from kaggle, it contains 119390 observations for a City Hotel and a Resort Hotel. Each observation represents a hotel booking between the 1st of July 2015 and 31st of August 2017, including booking that effectively arrived and booking that were canceled. Since this is hotel real data, all data elements pertaining hotel or costumer identification were deleted. Four Columns, 'name', 'email', 'phone number' and 'credit_card' have been artificially created and hence, they were also deleted. Therefore, updated dataset includes 119390 rows and 36 columns.
-The link for the dataset from kaggle is given below.
-[Hotel_Booking _Dataset](https://www.kaggle.com/datasets/mojtaba142/hotel-booking)
+
+The link for the dataset from kaggle can be found [Hotel_Booking _Dataset](https://www.kaggle.com/datasets/mojtaba142/hotel-booking)
+
 
 ## Business Problem
 
 City Hotel and Resort Hotel are experiencing high cancellation rates, which impact their revenue and room occupancy. The main objective of this analysis is to identify the factors that lead to cancellations and provide actionable insights to reduce cancellations and improve revenue generation.
+
 
 ## Research Questions
 
@@ -18,11 +21,13 @@ City Hotel and Resort Hotel are experiencing high cancellation rates, which impa
 2. How can we reduce the number of cancellations?
 3. How can hotels use this information to make better pricing and promotional decisions?
 
+
 ## Hypotheses
 
 - Higher booking prices lead to more cancellations.
 - Longer waiting lists contribute to higher cancellation rates.
 - Guests from certain market segments, such as online travel agencies, are more likely to cancel.
+
 
 ## Analysis and Findings
 
@@ -52,11 +57,13 @@ In the Jupyter notebook (`hotel_booking_da.ipynb`), several steps were taken to 
    - **Targeted Marketing**: Focus marketing campaigns in January to reduce cancellations and increase bookings during this low period.
    - **Service Improvement**: Consider improving services, especially for markets with high cancellation rates like Portugal, to encourage customer retention.
 
+
 ## Files in the Repository
 
 - **`hotel_bookings2.csv`**: The dataset used for the analysis.
 - **`hotel_booking_da.ipynb`**: The Jupyter Notebook containing the data analysis code.
 - **`hotel-report.pdf`**: A detailed report on the analysis and findings.
+
 
 ## Conclusion
 
